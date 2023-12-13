@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'NotoSansJP';
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'NotoSansJP', sans-serif;
+  font-size: 1.23px;
+  background-color: #f9f7ff;
+  @include media("ms"){
+    font-size: 0.2564vw;
+  }
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 24px;
+    margin: auto;
+    padding: 0;
+    width: 480px;
+    max-width: 100%;
+    font-weight: 300;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('../font/NotoSansJP-VariableFont_wght.ttf') format('woff2'),
+  url('../font/NotoSansJP-VariableFont_wght.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
